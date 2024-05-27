@@ -3,6 +3,7 @@ import Index from "./pages/Index.jsx";
 import TrackWorkout from "./pages/TrackWorkout.jsx";
 import Profile from "./pages/Profile.jsx";
 import Navbar from "./components/Navbar.jsx";
+import Progress from "./pages/Progress.jsx";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route exact path="/" element={<Index />} />
         <Route path="/track-workout" element={<TrackWorkout />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/progress" element={<Progress />} />
       </Routes>
     </Router>
   );
